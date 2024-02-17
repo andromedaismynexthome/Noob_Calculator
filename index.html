@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CALCULATOR</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="grid">
+                <div class="inputBox">
+                    <input type="text" disabled id="input-box" class="input" />
+                </div>
+                <div class="buttons">
+                    <input type="button" onclick="display(this)" value="0" class="button" />
+                    <input type="button" onclick="display(this)"  value="1" class="button" />
+                    <input type="button" onclick="display(this)" value="2" class="button" />
+                    <input type="button" onclick="display(this)" value="3" class="button" />
+                    <input type="button" onclick="display(this)" value="4" class="button" />
+                    <input type="button" onclick="display(this)" value="5" class="button" />
+                    <input type="button" onclick="display(this)" value="6" class="button" />
+                    <input type="button" onclick="display(this)" value="7" class="button" />
+                    <input type="button" onclick="display(this)" value="8" class="button" />
+                    <input type="button" onclick="display(this)" value="9" class="button" />
+                    <input type="button" onclick="display(this)" value="-" class="button" />
+                    <input type="button" onclick="display(this)" value="+" class="button" />
+                    <input type="button" onclick="display(this)" value="*" class="button" />
+                    <input type="button" onclick="display(this)" value="/" class="button" />
+                    <input type="button" onclick="display(this)" value="%" class="button" />
+                    <input type="button" onclick="display(this)" value="." class="button" />
+                    <input type="button" onclick="ans()" value="=" class="button" />
+                    <input type="button" onclick="rm()" value="clear" class="clearbutton" />
+                </div>
+            </div>
+        </div>
+        
+        <script src="script.js" ></script>
+    </body>
+</html>
